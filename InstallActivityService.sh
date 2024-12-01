@@ -2,6 +2,7 @@
 
 pkill -f ActicityService.py
 
+rm -rf $HOME/ActivityService
 mkdir $HOME/ActivityService
 cd $HOME/ActivityService
 
@@ -20,4 +21,3 @@ chmod 777 ActivityService.sh
 chmod 777 ActivityService.py
 
 $(which pip3) install -r requirements.txt --upgrade
-ls -l
